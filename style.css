@@ -5,10 +5,60 @@
     font-family: "Inter", sans-serif;
     font-weight: weight;
     font-style: normal;
+    background:#ffff;
 
 }
 
 .container {
-    width: 1550px;
+    width: 1400px;
     margin: auto;
+    background: #ffff;
+}
+
+.header{
+    padding: 24px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    display: grid;
+    grid-template-columns: 1;
+    align-content: start;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    color: #ffff;
+    
+
+}
+.header_nav ul li{
+color: #575757;
+}.header_nav ul li:hover{
+
+}
+.header_nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: #575757;
+}
+
+.common_button{
+    width: 190px;
+    height: 56px;
+    padding: 5px;
+    background-color:#1D4ED8 ;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.common_button:hover{
+background-color:#114bec ;
+    color: #fff;
 }
